@@ -6,7 +6,8 @@
     "scripts": {
         "test": "mocha '__tests__/*.test.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
         "run": "node ./index.js",
-        "start": "node ./index.js"
+        "start": "node ./index.js",
+        "build": "npm install"
     },
     "author": "",
     "license": "ISC",

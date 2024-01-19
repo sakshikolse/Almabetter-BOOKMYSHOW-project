@@ -101,18 +101,18 @@ const App = () => {
         };
 
         // Send booking data to the server
-        const response = await fetch("http://localhost:8080/api/booking", {
+        const response = await fetch("https://bookshow-n99d.onrender.com/api/booking", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
           },
           body: JSON.stringify(bookingData),
         });
-
+      
            // Process the server response
         if (response.ok) {
           // Retrieve the last booking data from the server
-          const lastBookingResponse = await fetch("http://localhost:8080/api/booking");
+          const lastBookingResponse = await fetch("https://bookshow-n99d.onrender.com/api/booking");
           const lastBookingData = await lastBookingResponse.json();
 
           // Update state with the last booking data
@@ -150,7 +150,8 @@ const App = () => {
     } catch (error) {
        // Log and show error alert
       console.error("An error occurred while booking:", error);
-      alert("Booking failed. Please try again.");
+      
+      alert("Booking failed.Error: ${error.message}.");
     }
   };
 

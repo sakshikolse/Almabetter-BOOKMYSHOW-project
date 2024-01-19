@@ -1,18 +1,21 @@
 ﻿# Bookmyshow-project
 
 Hello ,Sakshi here
+
 I am doing Full Stack web-development at Almabetter and This is my Backend project.
 
 Project's Name :-
 BookMyShow
 
 FRONTEND
+
 For Frontend I used :
 
 Library - React.js
 Framework - Bootstrap-5 & react-bootstrap
 
 BACKEND
+
 For Backend I used :
 
 Node with Express framework

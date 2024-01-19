@@ -5,32 +5,32 @@ Hello ,Sakshi here
 I am doing Full Stack web-development at Almabetter and This is my Backend project.
 
 Project's Name :-
-BookMyShow
+*BookMyShow
 
-FRONTEND
+*FRONTEND
 
 For Frontend I used :
 
 Library - React.js
 Framework - Bootstrap-5 & react-bootstrap
 
-BACKEND
+*BACKEND
 
 For Backend I used :
 
 Node with Express framework
 
-MongoDB Atlas as database To connect with MongoDB I used mongoose library
+*MongoDB Atlas as database To connect with MongoDB I used mongoose library
 
 
-The live version of the project is accessible at:
+*The live version of the project is accessible at:
 
 For Frontend:https://almabetterbookmyshow.netlify.app/
 
 For Backend: https://bookshow-n99d.onrender.com/api/booking
 
 
-If you need any help, you can clone this project
+*If you need any help, you can clone this project
 
 1.Clone the repository from GitHub:
 # Clone this repository
@@ -56,6 +56,7 @@ MONGO_URI=your_uri_here  # Replace with your MongoDB connection string
 $ npm start  
 
 Server will run at "http://localhost:8080".
+
 Client will run at "http://localhost:3000"
 
 Thank you for exploring My project!

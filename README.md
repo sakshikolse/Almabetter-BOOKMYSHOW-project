@@ -55,7 +55,6 @@ MONGO_URI=your_uri_here  # Replace with your MongoDB connection string
 # start the application for both client and server
 $ npm start  
 
-5.
 Server will run at "http://localhost:8080".
 Client will run at "http://localhost:3000"
 

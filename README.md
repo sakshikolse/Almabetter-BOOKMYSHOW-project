@@ -35,7 +35,7 @@ For Backend: https://bookshow-n99d.onrender.com/api/booking
 
 1.Clone the repository from GitHub:
 # Clone this repository
- $ git clone https://github.com/sakshikolse/Almabetter-BOOKMYSHOW-project.git
+ $ git clone https://github.com/sakshikolse/Almabetter-BOOKMYSHOW-project
 
 # Navigate into the repository
 $ cd Almabetter-BOOKMYSHOW-project
